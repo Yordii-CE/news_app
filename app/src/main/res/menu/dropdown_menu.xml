@@ -1,0 +1,31 @@
+<!-- res/menu/dropdown_menu.xml -->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Buscar" />
+    <item
+
+        android:title="COVID-19" />
+    <item
+        android:title="Apple" />
+    <item
+        android:title="Tesla" />
+    <item
+        android:title="Climate Change" />
+    <item
+        android:title="SpaceX" />
+    <item
+        android:title="Cryptocurrency" />
+    <item
+        android:title="Climate Crisis" />
+    <item
+        android:title="Technology"/>
+    <item
+        android:title="Elections"/>
+    <item
+        android:title="Peru"/>
+    <item
+        android:title="Zombies"/>
+    <item
+        android:title="Software"/>
+</menu>

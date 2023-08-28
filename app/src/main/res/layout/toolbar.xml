@@ -1,0 +1,46 @@
+<!-- res/layout/toolbar_layout.xml -->
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_gravity="start" />
+
+    <!-- Dropdown -->
+    <ImageView
+        android:id="@+id/action_overflow"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_more_vert" />
+
+    <!-- Iconos -->
+
+    <ImageView
+        android:id="@+id/action_news"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/news"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/action_favorite"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/favorites" />
+
+</androidx.appcompat.widget.Toolbar>
