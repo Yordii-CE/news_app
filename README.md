@@ -1,4 +1,4 @@
-Download and Try it ▶️ [News App]([https://yordii-ce.github.io/dice-game/](https://github.com/Yordii-CE/news_app/blob/main/news_app.apk))
+Download and Try it ▶️ [News App](https://github.com/Yordii-CE/news_app/blob/main/news_app.apk)
 ### Details
 - Java
 - Android Studio
